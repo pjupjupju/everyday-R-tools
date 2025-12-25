@@ -5,8 +5,7 @@ library(dplyr)
 library(readr)
 library(stringr)
 
-
-# this script uses  https://ipip.ori.org/AlphabeticalItemList.htm saved as ipipmess.htm, but feel free to use it for any great design research tool or anything u need it for, ofc.
+# this script uses https://ipip.ori.org/AlphabeticalItemList.htm saved as ipipmess.htm, but feel free to use it for any great design research tool or anything u need it for, ofc.
 
 ipip <- read_html("ipipmess.htm")
 
